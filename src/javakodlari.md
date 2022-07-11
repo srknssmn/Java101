@@ -45,5 +45,9 @@
 - int (32 bit) (2147483647 ve -2147483648 arasındaki tam sayılar için kullanılır)
 - long (64 bit)
 
+#### Ondalıklı Sayı Veri Tipleri
+
+- float (32 bit) (Mutlaka sayının sonuna "f" koyulur)
+- double (64 bit)
 
 

@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        /**
+        /*
          * @author Serkan Sitki Sisman
          */
 
@@ -31,14 +31,28 @@ public class Main {
         System.out.println(cevre);
         System.out.println(alan);
 
-        byte vByte = 100;
-        System.out.println(vByte);
+        byte tamSayi1 = 100;
+        System.out.println(tamSayi1);
 
-        short vShort = 15000;
-        System.out.println(vShort);
+        short tamSayi2 = 15000;
+        System.out.println(tamSayi2);
 
-        int vInt = 150000;
-        System.out.println(vInt);
+        int tamSayi3 = 150000;
+        System.out.println(tamSayi3);
+
+        float ondalikSayi1 = 1.5f;
+        System.out.println(ondalikSayi1);
+
+        double ondalikSayi2 = 3.14;
+        System.out.println(ondalikSayi2);
+
+        float t, x;
+
+        t = 35+5;
+        x = t/4;
+
+        System.out.println(x);
+
 
 
     }

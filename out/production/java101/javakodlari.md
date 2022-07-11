@@ -42,5 +42,12 @@
 
 - byte (8 bit) (127 ve -128 arasındaki tam sayılar için kullanılır)
 - short (16 bit) (32.767 ve -32768 arasındaki tam sayılar için kullanılır)
-- 
+- int (32 bit) (2147483647 ve -2147483648 arasındaki tam sayılar için kullanılır)
+- long (64 bit)
+
+#### Ondalıklı Sayı Veri Tipleri
+
+- float (32 bit) (Mutlaka sayının sonuna "f" koyulur)
+- double (64 bit)
+
 
