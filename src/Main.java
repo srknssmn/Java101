@@ -58,5 +58,14 @@ public class Main {
         System.out.println(dogru);
         System.out.println(yanlis);
 
+        int ilk = 7;
+        int ikinci = 17;
+        int carpim = ilk*ikinci;
+
+        System.out.println(ilk*ikinci);
+        System.out.println(carpim);
+
+
+
     }
 }
