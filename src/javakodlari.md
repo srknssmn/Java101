@@ -34,3 +34,5 @@
 - **//** ile tek satıra yorum yazılır ve çıktıda gösterilmez.
 - /* */ ile birden fazla satıra yorum yazılır ve çıktıda gösterilmez.
 - /** */ ile javadoc kod ile kod yazarı ile ilgili bilgiler yazılır.
+
+## Variables (Değişkenler)
