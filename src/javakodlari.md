@@ -71,4 +71,7 @@
 - || veya anlamına gelir
 - Verinin başına ! koyularak DEĞİL ifadesi yaratılır.
 - ? : (Doğru veya Yanlış) Örnek: String cevap = ? "Doğru" : "Yanlış";
-- 
+
+## Kullanıcıdan Veri Alma
+- import java.util.Scanner; kodu en tepeye yazılır.
+- Scanner input = new Scanner(System.in); kodu eklenir.
