@@ -50,4 +50,6 @@
 - float (32 bit) (Mutlaka sayının sonuna "f" koyulur)
 - double (64 bit)
 
+- char char isim = 'A'
+- bolean dogru = true yanlis = false
 

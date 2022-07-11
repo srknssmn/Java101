@@ -1,7 +1,4 @@
-# BAŞLIK
-## ALT BAŞLIK
-### ALT BAŞLIK
-
-- KONULAR
-- KONULAR
+# Patika.dev JAVA101 Dersi
+## Ders Notları
+## Ödevler
 

@@ -21,7 +21,6 @@ public class Main {
 
         System.out.println(numberThree);
 
-
         int kisaKenar=10;
         int uzunKenar=20;
 
@@ -53,7 +52,11 @@ public class Main {
 
         System.out.println(x);
 
+        boolean dogru = true;
+        boolean yanlis = false;
 
+        System.out.println(dogru);
+        System.out.println(yanlis);
 
     }
 }
