@@ -75,3 +75,11 @@
 ## Kullanıcıdan Veri Alma
 - import java.util.Scanner; kodu en tepeye yazılır.
 - Scanner input = new Scanner(System.in); kodu eklenir.
+  
+   input.next sistemi ile objeye atama yapılır. 
+
+input.nextint()    input.nextdouble()       input.nextbyte() vb.
+
+String için; input.nextline() kodu kullanılır.
+
+-  
