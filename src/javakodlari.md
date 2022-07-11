@@ -53,3 +53,22 @@
 - char (char isim = 'A')
 - boolean true ve false
 
+### String
+- String yazi = "Yazı"
+
+## Temel Operatörler
+
+### Karşılaştırma Operatörleri
+
+**Boolean ile kullanılırlar.**
+- == Eşittir
+- != Eşit değildir
+- (>) Büyüktür
+- (<) Küçüktür
+- (>=) Büyük eşittir
+- (<=) Küçük eşittir
+- && ve anlamına gelir
+- || veya anlamına gelir
+- Verinin başına ! koyularak DEĞİL ifadesi yaratılır.
+- ? : (Doğru veya Yanlış) Örnek: String cevap = ? "Doğru" : "Yanlış";
+- 

@@ -65,6 +65,48 @@ public class Main {
         System.out.println(ilk*ikinci);
         System.out.println(carpim);
 
+        String yazi = "Serkan Sitki Sisman";
+        System.out.println(yazi);
+
+
+        int a=5,b=2,c=5;
+
+        boolean sonuc = a==b;
+        System.out.println(sonuc);
+        boolean sonuc1 = a>b;
+        System.out.println(sonuc1);
+        boolean sonuc2 = a>=b;
+        System.out.println(sonuc2);
+        boolean sonuc3 = a!=b;
+        System.out.println(sonuc3);
+
+        boolean kosul1 = a==c;
+        boolean kosul2 = a>b;
+        boolean sonucc = kosul1&&kosul2;
+        System.out.println(sonucc);
+
+        boolean kosul11 = a==b;
+        boolean kosul22 = a==c;
+        boolean sonucc1 = kosul11||kosul22;
+        boolean sonucc2 = kosul11&&kosul22;
+
+        System.out.println(sonucc2);
+        System.out.println(!sonucc2);
+
+        String yeniKosul = sonucc ? "Dogru" : "Yanlis";
+        System.out.println(yeniKosul);
+
+        int yeniKosul1 = sonucc ? 1 : 2;
+        System.out.println(yeniKosul1);
+
+        String yeniSonuc = a==c ? "Dogru" : "Yanlis";
+        System.out.println(yeniSonuc);
+
+        byte bb = 0;
+
+        int ab = bb--;
+
+        System.out.println(ab);
 
 
     }
