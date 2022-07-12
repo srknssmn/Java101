@@ -69,7 +69,7 @@
 - (<=) Küçük eşittir
 - && ve anlamına gelir
 - || veya anlamına gelir
-- Verinin başına ! koyularak DEĞİL ifadesi yaratılır.
+- ! Verinen başına koyularak **Değil** ifadesi yaratılır.
 - ? : (Doğru veya Yanlış) Örnek: String cevap = ? "Doğru" : "Yanlış";
 
 ## Kullanıcıdan Veri Alma
