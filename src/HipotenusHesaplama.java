@@ -1,5 +1,3 @@
-package Odevler;
-
 import java.util.Scanner;
 
 public class HipotenusHesaplama {
