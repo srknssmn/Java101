@@ -1,10 +1,7 @@
 package Odevler;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
-
 public class KdvHesaplama {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
