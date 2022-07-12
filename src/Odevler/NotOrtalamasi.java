@@ -35,7 +35,7 @@ public class NotOrtalamasi {
         System.out.println("Not Ortalamaniz: " + sonuc);
 
         int gecernot = 60;
-        boolean kosul = sonuc > gecernot;
+        boolean kosul = sonuc >= gecernot;
 
         String genelSonuc = kosul ? "Sinifi Gecti" : "Sinifta Kaldi";
         System.out.println(genelSonuc);
