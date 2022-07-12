@@ -20,13 +20,5 @@ public class Taksimetre {
         c= c>=20 ? c : 20;
         System.out.println("Ucret: " + c + "TL");
 
-
-
-
-
-
-
-
-
     }
 }
