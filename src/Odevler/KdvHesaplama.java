@@ -12,7 +12,7 @@ public class KdvHesaplama {
         anaPara = input.nextDouble();
 
         boolean kosul = anaPara<=1000;
-        double kdvOrani = kosul ? 0.18: 0.8;
+        double kdvOrani = kosul ? 0.18: 0.08;
         double kdvTutari = anaPara*kdvOrani;
 
         System.out.println("Ana Para: " + anaPara);
