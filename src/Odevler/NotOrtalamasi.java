@@ -40,14 +40,6 @@ public class NotOrtalamasi {
         String genelSonuc = kosul ? "Sinifi Gecti" : "Sinifta Kaldi";
         System.out.println(genelSonuc);
 
-
-
-
-
-
-
-
-
     }
 
 
