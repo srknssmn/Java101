@@ -5,7 +5,7 @@ public class Manav {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        double armutFiyat=2.14,elmaFiyat=3.67,domatesFiyat=1.11,muzFiyat=0.95,patlicanFiyat=5;
+        double ar=2.14,el=3.67,dom=1.11,muzz=0.95,pat=5;
 
         double armut,elma,domates,muz,patlican;
 
@@ -20,7 +20,7 @@ public class Manav {
         System.out.print("Kac kg patlican aldiniz? ");
         patlican=input.nextDouble();
 
-        double toplam= (armut*armutFiyat)+(elma*elmaFiyat)+(domates*domatesFiyat)+(muz*muzFiyat)+(patlican*patlicanFiyat);
+        double toplam= (armut*ar)+(elma*el)+(domates*dom)+(muz*muzz)+(patlican*pat);
         System.out.print("Toplam Odemeniz: "+toplam+ "TL");
 
     }
