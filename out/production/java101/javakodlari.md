@@ -69,7 +69,7 @@
 - (<=) Küçük eşittir
 - && ve anlamına gelir
 - || veya anlamına gelir
-- Verinin başına ! koyularak DEĞİL ifadesi yaratılır.
+- ! Verinen başına koyularak **Değil** ifadesi yaratılır.
 - ? : (Doğru veya Yanlış) Örnek: String cevap = ? "Doğru" : "Yanlış";
 
 ## Kullanıcıdan Veri Alma
@@ -81,3 +81,6 @@
 input.nextint()    input.nextdouble()       input.nextbyte() vb.
 
 String için; input.nextline() kodu kullanılır.
+
+## Ek Bilgiler
+- Karekök alma: Math.sqrt

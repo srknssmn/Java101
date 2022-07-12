@@ -29,7 +29,7 @@ public class NotOrtalamasi {
         System.out.print("Muzik notunuz: ");
         muzik = input.nextInt();
 
-        int toplam = mat + fizik + kimya + turkce + tarih + muzik;
+        double toplam = mat + fizik + kimya + turkce + tarih + muzik;
         double sonuc = toplam / 6.0;
 
         System.out.println("Not Ortalamaniz: " + sonuc);

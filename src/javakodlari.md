@@ -81,3 +81,6 @@
 input.nextint()    input.nextdouble()       input.nextbyte() vb.
 
 String için; input.nextline() kodu kullanılır.
+
+## Ek Bilgiler
+- Karekök alma: Math.sqrt
