@@ -21,6 +21,5 @@ public class IfElseProblem {
         }else {
             System.out.println("En Kucuk Sayi C Sayisidir.");
         }
-
     }
 }
