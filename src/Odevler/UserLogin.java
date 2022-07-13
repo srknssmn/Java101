@@ -4,7 +4,7 @@ public class UserLogin {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        String username, password,reply,newPassword,newnewPassword;
+        String username, password,reply,newPassword,newPassword1;
 
         System.out.print("Username: ");
         username= input.nextLine();
@@ -24,8 +24,8 @@ public class UserLogin {
                         System.out.print("Password created!");
                     }else if ((newPassword.equals("pf1234"))){
                         System.out.println("Could not create password, please enter new password.");
-                        newnewPassword=input.nextLine();
-                        if(!(newnewPassword.equals("pf1234"))){
+                        newPassword1=input.nextLine();
+                        if(!(newPassword1.equals("pf1234"))){
                             System.out.print("Password created!");
                         }else{
                             System.out.print("Too many false attempts!");
