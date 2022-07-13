@@ -5,7 +5,14 @@ public class IfElseProblem {
         Scanner input = new Scanner(System.in);
         //En küçük sayı hangisidir?
 
-        int a= 5, b=4, c=3;
+        int a,b,c;
+        System.out.println("3 Adet Sayi Gireceksiniz.");
+        System.out.print("1. Sayi: ");
+        a=input.nextInt();
+        System.out.print("2. Sayi: ");
+        b=input.nextInt();
+        System.out.print("3. Sayi: ");
+        c=input.nextInt();
 
         if(a<b&&a<c){
             System.out.println("En Kucuk Sayi A Sayisidir.");
