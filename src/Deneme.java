@@ -4,14 +4,33 @@ public class Deneme {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        int a;
-        System.out.print("please enter a value:");
-        a= input.nextInt();
+        /*
+        double km, kmPer,ucret;
 
-        boolean kosul= (a>-100)&&(a<=100);
+        kmPer=2.20;
+        System.out.print("Kac KM Yol Gideceksiniz? ");
+        km= input.nextDouble();
 
-        String sonuc= kosul ? "Good job" : "Wrong answer";
-        System.out.println(sonuc);
+        ucret=(10+(km*kmPer);
+
+        double kosul = ucret<20 ? 20 : ucret;
+
+        System.out.print("Odeyeceginiz Ucret: ");
+        System.out.print(kosul + "TL");
+        */
+
+        int a,b,c;
+
+        a=3;
+        b=4;
+        c=5;
+        boolean kosul = a>b;
+
+        if (kosul){
+            System.out.println("Dogru");
+        }else {
+            System.out.println("Dogru Degil");
+        }
 
     }
 }
