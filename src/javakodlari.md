@@ -72,6 +72,8 @@
 
 **Boolean ile kullanılırlar.**
 - == Eşittir
+
+**String için equals.(")**
 - != Eşit değildir
 - (>) Büyüktür
 - (<) Küçüktür
