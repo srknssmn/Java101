@@ -34,8 +34,6 @@ public class HesapMakinesi {
             default:
                 System.out.println("Dogru Bir Deger Giriniz");
                 break;
-
-
         }
 
     }
