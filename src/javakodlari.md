@@ -82,6 +82,26 @@
 - ! Verinen başına koyularak **Değil** ifadesi yaratılır.
 - ? : (Doğru veya Yanlış) Örnek: String cevap = ? "Doğru" : "Yanlış";
 
+### IF - ELSE
+- if(){
+
+} else if (){
+
+} else{
+
+}
+### SWITCH - CASE
+- switch () {
+
+  case():
+
+    sout
+
+  break;
+  
+  default:
+}
+
 ## Kullanıcıdan Veri Alma
 - import java.util.Scanner; kodu en tepeye yazılır.
 - Scanner input = new Scanner(System.in); kodu eklenir.
