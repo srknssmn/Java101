@@ -57,6 +57,12 @@
 - char (char isim = 'A')
 - boolean true ve false
 
+### Matematik Değerler:
+- n%2==0 ÇİFT
+- n%2==1 TEK
+- Karekök alma: Math.sqrt
+- Üstlü sayı: Math.pow(a,2) (a üzeri 2)
+
 ### String
 - String yazi = "Yazı"
 
@@ -85,6 +91,3 @@
 input.nextint()    input.nextdouble()       input.nextbyte() vb.
 
 String için; input.nextline() kodu kullanılır.
-
-## Ek Bilgiler
-- Karekök alma: Math.sqrt

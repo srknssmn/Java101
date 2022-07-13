@@ -32,5 +32,12 @@ public class Deneme {
             System.out.println("Dogru Degil");
         }
 
+        int g=4;
+        if(g%2==1){
+            System.out.println("Sayi tektir");
+        }
+
+
+
     }
 }
