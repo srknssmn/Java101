@@ -37,8 +37,5 @@ public class UserLogin {
                 System.out.println("Choose any option");
             }
         }
-
-
-
     }
 }
