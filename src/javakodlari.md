@@ -44,6 +44,10 @@
 - short (16 bit) (32.767 ve -32768 arasındaki tam sayılar için kullanılır)
 - int (32 bit) (2147483647 ve -2147483648 arasındaki tam sayılar için kullanılır)
 - long (64 bit)
+- Byte.MIN_VALUE ve Byte.MAX_VALUE 
+- Short.MIN_VALUE ve Short.MAX_VALUE 
+- Integer.MIN_VALUE ve Integer.MAX_VALUE 
+- Long.MIN_VALUE ve Long.MAX_VALUE
 
 #### Ondalıklı Sayı Veri Tipleri
 
