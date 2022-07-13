@@ -6,33 +6,33 @@ public class HesapMakinesi {
 
         int n1,n2,n3;
 
-        System.out.print("Ilk Sayiyi Giriniz: ");
+        System.out.print("First number: ");
         n1=input.nextInt();
-        System.out.print("Ikinci Sayiyi Giriniz: ");
+        System.out.print("Second number: ");
         n2=input.nextInt();
-        System.out.println("Toplama icin 1\nCikarma icin 2\nCarpma icin 3\nBolme icin 4");
-        System.out.print("Hangi Islemi Seciyorsunuz? ");
+        System.out.println("Plus 1\nMinus 2\nMultiply 3\nDivide 4");
+        System.out.print("Choise ");
         n3=input.nextInt();
 
         switch (n3){
             case 1:
-                System.out.println("Sonucunuz: " +(n1+n2));
+                System.out.println("Result: " +(n1+n2));
                 break;
             case 2:
-                System.out.println("Sonucunuz: " +(n1-n2));
+                System.out.println("Result: " +(n1-n2));
                 break;
             case 3:
-                System.out.println("Sonucunuz: " +(n1*n2));
+                System.out.println("Result: " +(n1*n2));
                 break;
             case 4:
                 if (n2!=0){
-                    System.out.println("Sonucunuz: " +(n1/n2));
+                    System.out.println("Result: " +(n1/n2));
                     }else{
-                    System.out.println("0 a Bolunemez!");
+                    System.out.println("Cannot be divided by zero!");
                 }
                 break;
             default:
-                System.out.println("Dogru Bir Deger Giriniz");
+                System.out.println("Enter a correct value!");
                 break;
         }
 
