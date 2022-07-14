@@ -16,7 +16,7 @@ public class Temperature {
         }else if (temp>25) {
             System.out.println("You can go to swim!");
         }
-        if(temp>10&&temp<=25) {
+        if(temp>=10&&temp<=25) {
             System.out.println("You can go to picnic!");
         }
     }
