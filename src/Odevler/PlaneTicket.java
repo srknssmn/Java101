@@ -25,15 +25,16 @@ public class PlaneTicket {
         System.out.print("Kac Yasindasiniz? ");
         age=input.nextInt();
         pay=dist*fee;
+        double discount1=0.5,discount2=0.1,discount3=0.3,discount4=0.2;
 
         if (dist>0){
             if (choice==1){
                 if (age>=0&&age<12){
-                    System.out.println("Bilet fiyatiniz: "+ (pay-(pay*0.5)));
+                    System.out.println("Bilet fiyatiniz: "+ (pay-(pay*discount1)));
                 }else if(age>=12&&age<24){
-                    System.out.println("Bilet fiyatiniz: "+(pay-(pay*0.1)));
+                    System.out.println("Bilet fiyatiniz: "+(pay-(pay*discount2)));
                 }else if(age>=65){
-                    System.out.println("Bilet fiyatiniz: "+(pay-(pay*0.3)));
+                    System.out.println("Bilet fiyatiniz: "+(pay-(pay*discount3)));
                 }else if(age>23&&age<65){
                     System.out.println("Bilet fiyatiniz: "+pay);
                 }else{
@@ -41,13 +42,13 @@ public class PlaneTicket {
                 }
             }else if(choice==2){
                 if(age>=0&&age<12){
-                    System.out.println("Bilet fiyatiniz: "+(2*((pay-(pay*0.5))-((pay-(pay*0.5))*0.2))));
+                    System.out.println("Bilet fiyatiniz: "+(2*((pay-(pay*discount1))-((pay-(pay*discount1))*discount4))));
                 }else if(age>=12&&age<24){
-                    System.out.println("Bilet fiyatiniz: "+(2*((pay-(pay*0.1))-((pay-(pay*0.1))*0.2))));
+                    System.out.println("Bilet fiyatiniz: "+(2*((pay-(pay*discount2))-((pay-(pay*discount2))*discount4))));
                 }else if(age>=65){
-                    System.out.println("Bilet fiyatiniz: "+ (2*((pay-(pay*0.3))-((pay-(pay*0.3))*0.2))));
+                    System.out.println("Bilet fiyatiniz: "+ (2*((pay-(pay*discount3))-((pay-(pay*discount3))*discount4))));
                 }else if(age>23&&age<65){
-                    System.out.println("Bilet fiyatiniz: "+(2*(pay-(pay*0.2))));
+                    System.out.println("Bilet fiyatiniz: "+(2*(pay-(pay*discount4))));
                 }else{
                     System.out.println("Gecerciz bilgi girdiniz!");
                 }
