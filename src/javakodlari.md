@@ -95,11 +95,17 @@
 ### SWITCH - CASE
 - switch () {
 
-  case():
+  case1:
 
     sout
 
-  break;
+    break;
+
+  case2:
+
+    sout
+
+    break;
   
   default:
 }
@@ -113,3 +119,11 @@
 input.nextint()    input.nextdouble()       input.nextbyte() vb.
 
 String için; input.nextline() kodu kullanılır.
+
+## DÖNGÜLER
+### While
+- while(kosul){}
+### Do While
+- do {kodlar}
+
+  while(kosul);
