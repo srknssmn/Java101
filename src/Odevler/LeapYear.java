@@ -9,8 +9,16 @@ public class LeapYear {
         System.out.print("Bir yil giriniz: ");
         year= input.nextInt();
 
-        if ((year%4==0)&&!((year%100==0)&&!(year%400==0))){
+        if (((year>0)&&(year<400))&&(year%4==0)){
             System.out.println(+year+ "\t Bir artik yildir!");
+        }else if (year>=400){
+            if ((year%4==0)&&!((year%100==0)&&!(year%400==0))){
+                System.out.println(+year+ "\t Bir artik yildir!");
+            }else {
+                System.out.println(+year+ "\t Bir artik yil degildir!");
+            }
+        }else if(year<1){
+            System.out.println(+year+ "Yanlis bilgi girdiniz!");
         }else{
             System.out.println(+year+ "\t Bir artik yil degildir!");
         }
