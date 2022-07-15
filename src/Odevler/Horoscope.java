@@ -16,7 +16,7 @@ public class Horoscope {
         //Kova Burcu : 22 Ocak - 19 Şubat
         //Balık Burcu : 20 Şubat - 20 Mart
 
-        int month,day;
+        int month;
 
         System.out.println("Burc Sistemine Hos Geldiniz!");
         System.out.print("Kacinci Ayda Dogdunuz? ");
@@ -24,6 +24,7 @@ public class Horoscope {
         if(month<1||month>12) {
             System.out.println("Hatali Ay Girdiniz!");
         }
+        int day;
         System.out.print("Kacinci Gunde Dogdunuz? ");
         day= input.nextInt();
 
