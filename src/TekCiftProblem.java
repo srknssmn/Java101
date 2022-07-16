@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Problem1 {
+public class TekCiftProblem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
