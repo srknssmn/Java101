@@ -17,12 +17,16 @@ public class ForWhileFark {
                     kosul=false;
             }
         } */
-
+        /*
         String yazi;
         do{
             System.out.print("bir sey yazin: ");
             yazi=input.nextLine();
 
         }while (!yazi.equals("go"));
+            System.out.println("hey");
+
+         */
+
     }
 }
