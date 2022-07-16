@@ -1,3 +1,5 @@
+package Calisma;
+
 import java.util.Scanner;
 public class For {
     public static void main(String[] args) {
@@ -11,7 +13,7 @@ public class For {
         // FOR DONGUSU
         //for(int i=1; i<=12; i+=2) {
          //   System.out.print(i + "\t");
-           //              }
+           //}
         /*
         for(int i=1; i<=12; i+=2) {
             System.out.print(i + "\t");

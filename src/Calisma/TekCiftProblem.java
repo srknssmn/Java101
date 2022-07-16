@@ -1,3 +1,5 @@
+package Calisma;
+
 import java.util.Scanner;
 
 public class TekCiftProblem {

@@ -121,9 +121,9 @@ input.nextint()    input.nextdouble()       input.nextbyte() vb.
 String için; input.nextline() kodu kullanılır.
 
 ## DÖNGÜLER
-### While
+### Calisma.While
 - while(kosul){}
-### Do While
+### Do Calisma.While
 - do {kodlar}
 
   while(kosul);
