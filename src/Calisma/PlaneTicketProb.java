@@ -1,3 +1,5 @@
+package Calisma;
+
 import java.util.Scanner;
 public class PlaneTicketProb {
     public static void main(String[] args) {
