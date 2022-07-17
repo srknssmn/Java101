@@ -30,8 +30,11 @@ public class Combination {
             total3=total3*k;
             k++;
         }
-        int combination= total1/ (total2*total3);
-        System.out.print("N ’in r ’li kombinasyonu C(n,r): " + combination);
-
+        if(n>r) {
+            int combination = total1 / (total2 * total3);
+            System.out.print("N ’in r ’li kombinasyonu C(n,r): " + combination);
+        }else{
+            System.out.println("N r den buyuk olmalidir.");
+        }
     }
 }
