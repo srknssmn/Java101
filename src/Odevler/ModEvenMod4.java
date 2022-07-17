@@ -11,9 +11,8 @@ public class ModEvenMod4 {
             a =input.nextInt();
             if(a%2==0&&a%4==0){
                 total+=a;
-                System.out.println(total);
             }
-        }while (!(a%2==1));
-        System.out.print("Tek sayi girdiniz!");
+        }while (a%2==0);
+        System.out.println(total);
     }
 }
