@@ -6,7 +6,7 @@ public class Harmonic {
 
         int numb;
         double total=0;
-        System.out.print("Give a number: ");
+        System.out.print("Enter a number: ");
         numb= input.nextInt();
 
         for(double i=1; i<=numb; i++){
