@@ -19,6 +19,7 @@ public class DiamondWithStars {
             }
             System.out.println();
         }
+
         tempNumb=numb;
 
         for(int p=1; p<=(tempNumb-1); p++){
