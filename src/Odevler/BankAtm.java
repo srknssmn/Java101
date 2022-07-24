@@ -18,11 +18,9 @@ public class BankAtm {
             if (userName.equals("patika") && password.equals("dev123")){
                 System.out.println("Hello, welcome to Kodluyoruz Bank!");
                 do {
-
                     System.out.println("1-Deposit Money\n2-Withdraw Money\n3-Inquire About Balance\n4-Exit");
                     System.out.print("Please select the action you want to do: ");
                     select = input.nextInt();
-
                     switch (select) {
                         case 1:
                             System.out.print("Amount of money: ");
@@ -37,11 +35,9 @@ public class BankAtm {
                                 System.out.println("Insufficient Balance.");
                             }else {
                                 balance -= withdrawPrice;
-                                break;
                             }
                         case 3:
                             System.out.println("Balance: " + balance);
-                            break;
                     }
                 }while (select != 4);
                 System.out.println("See you later.");
