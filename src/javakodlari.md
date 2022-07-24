@@ -129,4 +129,4 @@ String için; input.nextline() kodu kullanılır.
 
   while(kosul);
 ### For
-- for (a;b;c){}
+- for (a=1;a<n;a++){}
