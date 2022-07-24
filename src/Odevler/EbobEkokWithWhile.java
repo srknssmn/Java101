@@ -30,9 +30,4 @@ public class EbobEkokWithWhile {
         // Ekok= (n1*n2)/ebob
         System.out.print("Ekok= "+ ((n1*n2)/ebob));
     }
-
 }
-
-
-
-
