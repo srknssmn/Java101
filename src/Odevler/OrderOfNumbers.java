@@ -11,6 +11,10 @@ public class OrderOfNumbers {
             System.out.print(i + ". Number: ");
             int n1 = input.nextInt();
 
+            if(i==1){
+                biggestNumber=n1;
+                smallestNumber=n1;
+            }
             if(n1>biggestNumber){
                 biggestNumber=n1;
             }
