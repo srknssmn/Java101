@@ -119,6 +119,7 @@
 input.nextint()    input.nextdouble()       input.nextbyte() vb.
 
 String için; input.nextline() kodu kullanılır.
+             object.Equals() ile eşitlik aranır.
 
 ## DÖNGÜLER
 ### Calisma.While
@@ -127,3 +128,5 @@ String için; input.nextline() kodu kullanılır.
 - do {kodlar}
 
   while(kosul);
+### For
+- for (a;b;c){}
